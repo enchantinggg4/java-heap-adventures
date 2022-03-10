@@ -34,22 +34,5 @@ fun Instance.string(name: String): String {
         val b = s.toByte()
         print(", B: $b")
     }
-
-//    values.forEach {
-//
-//        val wta = if (it is Char) {
-//            it
-//        } else if (it is String) {
-//            val charCode = Integer.valueOf(it)
-//            Character.toString(charCode.toChar())
-//        }else "_"
-//
-//        println("[$wta] [$it]")
-//        sb.append(wta)
-//
-//    }
-//    println("VALUES: $values")
-//    println("nigger? its me $ba")
-//    println("Good: <${sb}>")
     return "help"
 }
