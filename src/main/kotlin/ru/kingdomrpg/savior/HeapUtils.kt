@@ -1,8 +1,9 @@
-import org.netbeans.lib.profiler.heap.Instance
-import org.netbeans.lib.profiler.heap.ObjectArrayInstance
-import org.netbeans.lib.profiler.heap.PrimitiveArrayInstance
+package ru.kingdomrpg.savior
+
+import org.netbeans.lib.profiler.heap.*
 
 class HeapUtils {
+
     /**
      * Processes a LinkedList
      * @param instance - LinkedList instance

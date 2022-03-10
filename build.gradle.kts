@@ -24,5 +24,5 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("ru.kingdomrpg.savior.MainKt")
 }
